@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mdlayher/apcupsd"
+	"github.com/mdlayher/apcupsd_exporter/internal/apcupsd"
 )
 
 func TestUPSCollector(t *testing.T) {
