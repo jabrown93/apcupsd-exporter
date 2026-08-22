@@ -1,7 +1,7 @@
 # Static CGO_ENABLED=0 cross-compile on the DHI Go toolchain, scratch runtime,
 # nonroot. Upstream publishes no container image; this fork exists to ship one
 # built with a current toolchain.
-FROM --platform=$BUILDPLATFORM dhi.io/golang:1.26.7-dev@sha256:05ecf8176801958c7b2afaf2f97923556124c79176a23611d80bf5000e31a028 AS builder
+FROM --platform=$BUILDPLATFORM dhi.io/golang:1.26.7-dev@sha256:0ff9ace4c61aa79a6b6d039a0268884c4fffe253e480fe2449d055da7b88b579 AS builder
 
 ARG TARGETOS
 ARG TARGETARCH
